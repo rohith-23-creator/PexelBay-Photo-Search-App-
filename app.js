@@ -6,12 +6,8 @@ const moreBtn = document.querySelector(".more");
 const spinner = document.querySelector(".spinner");
 let search;
 let page = 1;
-let isLoading = false;
 let fetchLink;
 let searchInput;
-if (!isLoading) {
-  spinner.classList.add("out");
-}
 
 // ---------------------Form Input -----------------//
 input.addEventListener("input", searchValue);
@@ -35,7 +31,6 @@ async function api(url) {
       Authorization: client,
     },
   });
-  isLoading = true;
   const data = await dataFetch.json();
   return data;
 }
@@ -53,7 +48,6 @@ function genratePhotos(data) {
 
     gallery.appendChild(galleryImg);
   });
-  isLoading = false;
 }
 
 // ----------------------popular photos ---------------------//
