@@ -11,4 +11,4 @@ Photo search App using Javascript FetchAPI
 
 # Note :
 
-The API Key I used in this project is mine, that is Private one.It cannot bbe deployed in github due to privacy issues. So Kindly add your own API key . until that the server will not respond and app wont work.
+The API Key I used in this project is mine, that is Private one.It cannot be deployed in github due to privacy issues. So Kindly add your own API key . until that the server will not respond and app wont work.
