@@ -2,7 +2,7 @@
 Photo search App using Javascript FetchAPI
 
 
-Features : 
+# Features : 
 
 1.Search Photos.
 2.Download Photos
