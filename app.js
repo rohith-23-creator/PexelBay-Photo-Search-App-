@@ -1,4 +1,5 @@
 const client = API_KEY;
+//Kindly use your own API Key. This key is private and app will not work until u use your own key
 const form = document.querySelector(".searchForm");
 const input = document.querySelector(".textInput");
 const gallery = document.querySelector(".gallery");
